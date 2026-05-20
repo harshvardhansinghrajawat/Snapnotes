@@ -1,0 +1,24 @@
+# ─── Spring Boot ───────────────────────────
+target/
+*.class
+*.jar
+*.war
+*.log
+.idea/
+*.iml
+.mvn/
+
+# ─── Angular ───────────────────────────────
+node_modules/
+dist/
+.angular/
+
+# ─── Environment / Secrets ─────────────────
+.env
+.env.local
+*.properties.secret
+application-local.properties
+
+# ─── OS ────────────────────────────────────
+.DS_Store
+Thumbs.db 
